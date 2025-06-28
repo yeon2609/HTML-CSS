@@ -1,0 +1,32 @@
+.box {
+  width: 700px;
+  height: 700px;
+  border: 3px solid black;
+  display: flex; /* 자식 태그들을 가로or 세로 한줄로 세우기 */
+  flex-direction: column ; /* row : 가로, column : 세로 */
+}
+
+.minibox {
+  width: 100px;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}

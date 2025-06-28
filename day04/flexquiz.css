@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px ;
+}
+
+.mini {
+  width: 100px;
+  height: 100px;
+}
+
+.a {
+ background-color: #81ecec;
+}
+
+.b {
+  background-color: #00cec9;
+}
+
+.c {
+  background-color: #fab1a0;
+}
+
+.d {
+  background-color: #e17055;
+}
+
+.e {
+  background-color: #74b9ff;
+}
+
+.f {
+  background-color: #0984e3;
+}
+
+.g {
+  background-color: #ff7675;
+}
+
+.h {
+  background-color: #d63031;
+}
