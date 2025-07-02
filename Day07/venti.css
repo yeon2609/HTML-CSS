@@ -1,0 +1,17 @@
+button {
+  border-radius: 18px;
+  border: 1px solid white;
+  background-color: white;
+  padding: 6px 6px 6px 6px;
+}
+
+.coffe {
+  color: white;
+  background-color: black;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+  transition: all 1s;
+}

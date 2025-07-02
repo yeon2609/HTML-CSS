@@ -1,0 +1,12 @@
+section {
+  /* 자식을 행렬, 바둑판, 체스판, 엑셀표 처럼 */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+}

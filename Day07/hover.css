@@ -1,0 +1,30 @@
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: tomato;
+  /* 변화가 일어나면 몇 초 걸리는지 제어하는 css*/
+  transition: all 1s;
+}
+
+/* 마우스 올렸을때 */
+.box:hover {
+  background-color: green;
+  width: 300px;
+  height: 300px;
+}
+
+button {
+  background-color: transparent; /* 투명 */
+  border: 1px solid orange;
+  border-radius: 5px;
+  color: orange;
+  transition: all 0.3s;
+  padding: 4px 20px 6px 20px;
+}
+
+button:hover {
+  background-color: orange;
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
