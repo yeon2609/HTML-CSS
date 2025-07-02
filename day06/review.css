@@ -1,0 +1,58 @@
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #efefef;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border-radius: 8px;
+  width: 600px;
+  height: 300px;
+  background-size: cover;
+  padding: 10px 20px 10px 20px;
+  gap: 10px;
+}
+
+.card1 {
+  background-image: url("해비치.jpg");
+}
+
+.card2 {
+  background-image: url("엘모로.jpg");
+}
+
+.card3 {
+  background-image: url("엘플레이트.jpg");
+}
+
+.card4 {
+  background-image: url("라테라스.jpg");
+}
+
+.category {
+  font-size: 16px;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}

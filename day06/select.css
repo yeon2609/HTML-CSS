@@ -1,0 +1,15 @@
+.food {
+  color : green;
+}
+
+div {
+  color: orange;
+}
+
+body {
+  color: blue;
+}
+
+* {
+  color: black;
+}
