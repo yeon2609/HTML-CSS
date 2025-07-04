@@ -1,0 +1,49 @@
+section {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* width: fit-content : 자식에 맞게 넓이를 가지겠다 */
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.photo {
+  width: 130px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.photo:hover {
+  transform: scale(1.05);
+}
+
+.name {
+  color: #101010;
+  /* text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; */
+}
+
+.name:hover {
+  text-decoration-line: underline;
+  
+}
