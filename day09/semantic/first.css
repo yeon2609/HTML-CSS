@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Gyeonggi_Title_Medium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Title_Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  background-image: url("패션2.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.first > .text {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  line-height: 1.5;
+  font-family: 'Gyeonggi_Title_Medium';
+}

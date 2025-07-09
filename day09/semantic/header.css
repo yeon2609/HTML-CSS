@@ -2,6 +2,10 @@ header {
   border-bottom: 1px solid #e8e8e8;
   background-color: white;
   padding: 10px 0;
+  
+  position: fixed;
+  top: 0px;
+  width: 100%;
 }
 
 nav {

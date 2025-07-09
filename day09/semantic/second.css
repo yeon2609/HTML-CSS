@@ -1,0 +1,29 @@
+.second {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.second > .message {
+  font-family: 'Gyeonggi_Title_Medium';
+  text-align: center;
+  font-size: 32px;
+  color: #757575;
+  line-height: 1.3;
+}
+
+.second > .memo {
+  font-family: 'Gyeonggi_Title_Medium';
+  text-align: center;
+  font-size: 32px;
+  color: #757575;
+  line-height: 3.0;
+}
+
+.second > .memo > span {
+  font-family: 'Gyeonggi_Title_Medium';
+  color: #1F1F1F;
+  font-weight: bold;
+}
