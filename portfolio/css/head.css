@@ -1,0 +1,49 @@
+header {
+  border: none;
+  background-color: white;
+  padding: 10px 0;
+
+  position: fixed;
+  width: 100%;
+  top: 0px;
+}
+
+nav {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  font-size: 15px;
+  color: #4e5968;
+}
+
+.link > .button {
+  padding: 15px 15px;
+  border: none;
+  border-radius: 8px;
+}
+
+.link > .button:hover {
+  color: #007bff;
+  background-color: #e8e8e8;
+}
+
+.link > .eng {
+  color: #e8e8e8;
+}
