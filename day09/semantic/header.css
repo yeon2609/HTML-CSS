@@ -2,7 +2,7 @@ header {
   border-bottom: 1px solid #e8e8e8;
   background-color: white;
   padding: 10px 0;
-  
+  z-index: 10;
   position: fixed;
   top: 0px;
   width: 100%;
@@ -16,6 +16,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 15px 15px;
 }
 
 .link {
@@ -25,12 +26,26 @@ nav {
   gap: 10px;
 }
 
+.hambuger {
+  display: none;
+}
+
+@media screen and (max-width:760px) {
+  .link {
+    display: none;
+  }
+
+  .hambuger {
+    display: block;
+  }
+}
+
 .button {
   color: #1f1f1f;
-  padding: 15px 15px;
   border: none;
   border-radius: 25px;
   font-weight: bold;
+  padding: 15px 15px;
 }
 
 .button:hover {

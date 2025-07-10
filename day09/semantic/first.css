@@ -27,3 +27,9 @@
   line-height: 1.5;
   font-family: 'Gyeonggi_Title_Medium';
 }
+
+@media screen and (max-width:760px) {
+  .first > .text {
+    font-size: 40px;
+  }
+}

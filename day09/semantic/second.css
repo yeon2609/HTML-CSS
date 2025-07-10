@@ -27,3 +27,17 @@
   color: #1F1F1F;
   font-weight: bold;
 }
+
+@media screen and (max-width:760px) {
+  .second > .message {
+    font-size: 20px;
+  }
+
+  .second > .memo {
+    font-size: 20px;
+  }
+
+  .second > .memo > span {
+    font-size: 20px;
+  }
+}
