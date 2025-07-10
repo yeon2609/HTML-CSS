@@ -1,0 +1,41 @@
+.two {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #757575;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.message {
+  line-height: 1.5;
+}
+
+.memo {
+  margin-top: 40px;
+}
+
+span {
+  color: #1f1f1f;
+}
+
+@media screen and (max-width:760px) {
+  .two > .box > .message {
+    font-size: 20px;
+  }
+
+  .two > .box > .memo {
+    font-size: 20px;
+  }
+
+  .two > .box > span {
+    font-size: 20px;
+  }
+}

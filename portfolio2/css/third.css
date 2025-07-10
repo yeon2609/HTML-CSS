@@ -1,0 +1,86 @@
+.third {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.third > .contends {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.third > .contends > .container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-family: 'GongGothicMedium';
+  position: relative;
+}
+
+.third > .contends > .container > h1 {
+  font-size: 28px;
+  color: #3182f6;
+}
+
+.third > .contends > .container > h2 {
+  font-size: 50px;
+  color: #191f28;
+  line-height: 1.4;
+}
+
+.third > .contends > .container > .photo1 {
+  width: 600px;
+  height: 936px;
+  position: absolute;
+  top: 30px;
+  left: 600px;
+}
+
+.third > .contends > .container > .photo1-1 {
+  width: 342px;
+  height: 740px;
+  position: absolute;
+  top: 130px;
+  left: 730px;
+  border-radius: 50px;
+} 
+
+.third > .contends > .container > .photo2 {
+  width: 600px;
+  height: 936px;
+  position: absolute;
+  top: 360px;
+}
+
+.third > .contends > .container > .photo2-1 {
+  width: 342px;
+  height: 740px;
+  position: relative;
+  top: 140px;
+  left: 130px;
+  border-radius: 50px;
+} 
+
+.third > .contends > .container > p {
+  font-size: 23px;
+  line-height: 1.4;
+  position: absolute;
+  top: 0px;
+  left: 650px;
+  top: 1000px;
+}
+
+@media screen and (max-width:760px) {
+  .third > .contends > .container {
+    padding: 0px 20px;
+  }
+
+  .third > .contends > .container > h1 {
+    font-size: 18px;
+  }
+
+  .third > .contends > .container > h2 {
+    font-size: 28px;
+  }
+}

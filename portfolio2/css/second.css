@@ -1,0 +1,23 @@
+.second {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9fafb;
+  padding: 200px 0;
+}
+
+.second > .text {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #191f28;
+  font-size: 32px;
+  font-family: 'GongGothicMedium';
+  text-align: center;
+  line-height: 1.5;
+}
+
+@media screen and (max-width:760px) {
+  .second > .text {
+    font-size: 25px;
+  }
+}
